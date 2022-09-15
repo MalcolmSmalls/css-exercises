@@ -23,24 +23,26 @@ body, html {
 }
 
 .header {
-  grid-column:1 / span 5;
+  grid-column:1 / span 1;
   grid-row:1 / 1;
   background-color: #FFDE22;
 }
 
 .sidebar {
   background-color: #FF7755;
-  grid-column:1 / span -4;
+  grid-column:1 / span 1;
   grid-row:2 / 4;
 }
 
 .nav {
   background-color: #00DDFF;
-  grid-column:2 / span 3;
+  grid-column:2 / span 1;
 }
 
 .article {
   background-color: #bccbde;
+  grid-column:2 / span 1;
+  grid-row: 2/ span 2;
 
 }
 
@@ -54,4 +56,5 @@ body, html {
 .footer {
   background-color: #393f4d;
   grid-row:4;
+  grid-column:-3 / span 2gi;
 }
