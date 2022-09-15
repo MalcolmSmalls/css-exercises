@@ -23,7 +23,7 @@ body, html {
 }
 
 .header {
-  grid-column:1 / span 1;
+  grid-column:1 / span 2;
   grid-row:1 / 1;
   background-color: #FFDE22;
 }
@@ -36,13 +36,14 @@ body, html {
 
 .nav {
   background-color: #00DDFF;
+  grid-row:2 / span 1;
   grid-column:2 / span 1;
 }
 
 .article {
   background-color: #bccbde;
   grid-column:2 / span 1;
-  grid-row: 2/ span 2;
+  grid-row: 3/ span 1;
 
 }
 
