@@ -56,5 +56,5 @@ body, html {
 .footer {
   background-color: #393f4d;
   grid-row:4;
-  grid-column:-3 / span 2gi;
+  grid-column:-3 / span 2;
 }
